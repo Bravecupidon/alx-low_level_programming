@@ -3,7 +3,8 @@
 #include <stdio.h>
 
 /**
- * main - prints if the number is positive,negative or 0
+ * main - Entry Point
+ * prints if the number is positive,negative or 0
  * return: Always 0 (success)
  */
 
@@ -31,5 +32,5 @@ int main(void)
 	printf("%d is negative\n", n);
 	}
 
-return (0);	
+	return (0); /*return value always zero*/
 }
